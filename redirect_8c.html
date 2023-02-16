@@ -20,7 +20,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="42logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">Minishell<span id="projectnumber">&#160;1.0</span>
    </div>
@@ -80,12 +79,10 @@ $(function() {
   <div class="headertitle"><div class="title">redirect.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="terminal_8h_source.html">terminal.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="execution_8h_source.html">execution.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="expansion_8h_source.html">expansion.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="parser_8h_source.html">parser.h</a>&quot;</code><br />
-<code>#include &quot;libast.h&quot;</code><br />
-<code>#include &quot;ft_printf.h&quot;</code><br />
+
+<p>リダイレクトの実行  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="execution_8h_source.html">execution.h</a>&quot;</code><br />
 <code>#include &lt;unistd.h&gt;</code><br />
 <code>#include &lt;fcntl.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -93,22 +90,19 @@ Include dependency graph for redirect.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="redirect_8c__incl.png" border="0" usemap="#asrcs_2execution_2redirect_8c" alt=""/></div>
 <map name="asrcs_2execution_2redirect_8c" id="asrcs_2execution_2redirect_8c">
-<area shape="rect" title=" " alt="" coords="310,5,476,31"/>
-<area shape="rect" href="terminal_8h.html" title=" " alt="" coords="323,152,402,177"/>
-<area shape="rect" title=" " alt="" coords="154,225,218,251"/>
-<area shape="rect" href="execution_8h.html" title=" " alt="" coords="56,79,146,104"/>
-<area shape="rect" href="expansion_8h.html" title=" " alt="" coords="227,79,319,104"/>
-<area shape="rect" href="parser_8h.html" title=" " alt="" coords="395,79,463,104"/>
-<area shape="rect" title=" " alt="" coords="488,79,565,104"/>
-<area shape="rect" title=" " alt="" coords="590,79,658,104"/>
-<area shape="rect" title=" " alt="" coords="682,79,741,104"/>
-<area shape="rect" title=" " alt="" coords="484,225,539,251"/>
-<area shape="rect" href="constant_8h.html" title=" " alt="" coords="293,225,376,251"/>
-<area shape="rect" title=" " alt="" coords="29,225,130,251"/>
-<area shape="rect" title=" " alt="" coords="250,299,333,324"/>
-<area shape="rect" title=" " alt="" coords="564,225,646,251"/>
-<area shape="rect" href="lexer_8h.html" title=" " alt="" coords="400,225,460,251"/>
-<area shape="rect" title=" " alt="" coords="393,299,468,324"/>
+<area shape="rect" title="リダイレクトの実行" alt="" coords="520,5,685,31"/>
+<area shape="rect" href="execution_8h.html" title=" " alt="" coords="455,79,545,104"/>
+<area shape="rect" title=" " alt="" coords="569,79,637,104"/>
+<area shape="rect" title=" " alt="" coords="661,79,720,104"/>
+<area shape="rect" href="terminal_8h.html" title=" " alt="" coords="341,152,419,177"/>
+<area shape="rect" title=" " alt="" coords="5,225,107,251"/>
+<area shape="rect" title=" " alt="" coords="480,299,563,324"/>
+<area shape="rect" title=" " alt="" coords="559,225,623,251"/>
+<area shape="rect" title=" " alt="" coords="322,225,377,251"/>
+<area shape="rect" href="constant_8h.html" title=" " alt="" coords="401,225,484,251"/>
+<area shape="rect" title=" " alt="" coords="131,225,213,251"/>
+<area shape="rect" href="lexer_8h.html" title=" " alt="" coords="238,225,298,251"/>
+<area shape="rect" title=" " alt="" coords="231,299,305,324"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -121,7 +115,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a553e028b08ec278f79c100e9ac941e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">リダイレクト先の設定を行う。  <a href="redirect_8c.html#a553e028b08ec278f79c100e9ac941e21">More...</a><br /></td></tr>
 <tr class="separator:a553e028b08ec278f79c100e9ac941e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >リダイレクトの実行 </p>
+<dl class="section date"><dt>Date</dt><dd>2023-02-16 </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a15a4ab4d8ed42af0440eb25592fa81a1" name="a15a4ab4d8ed42af0440eb25592fa81a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15a4ab4d8ed42af0440eb25592fa81a1">&#9670;&#160;</a></span>open_file()</h2>
 
